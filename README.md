@@ -22,7 +22,7 @@ curl -X POST -H "Content-Type: application/json" -d '{"name":"Making Pizza for O
 
 You will get back a repsponse with an id and a secret key. The secret key can be used to write to the bar or delete it:
 ```
-HTTP 200 OK
+HTTP 201 CREATED
 {
   id: "428f52f8-bd78-4c37-9071-10ebb84ccb2d",
   timestamp: "2014-10-12T21:22:13",
