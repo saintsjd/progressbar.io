@@ -55,7 +55,7 @@ curl -X GET -H "Content-Type: application/json" http://progressbar.io/bars/428f5
 
 Returns the last message logged to the bar
 
-```http
+```
 HTTP 200 OK
 {
   id: "02ebf474-e957-4337-9083-d6f1d57c29df",
