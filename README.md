@@ -20,7 +20,7 @@ curl -X POST --data "name=Making+Pizza+for+Order+111" http://progressbar.io/bars
 curl -X POST -H "Content-Type: application/json" -d '{"name":"Making Pizza for Order 111"}' http://progressbar.io/bars
 ```
 
-You will get back a repsponse with an id and a secret key. The secret key can be used to write to the bar or delete it:
+You will get back a response with an id and a secret key. The secret key can be used to write to the bar or delete it:
 ```
 HTTP 201 CREATED
 {
@@ -50,6 +50,8 @@ curl -X POST -u 36ec244b-731d-46c3-956a-7438d42a7798: -H "Content-Type: applicat
 Check the status of a bar
 ---- 
 
+No secretKey needed for reading from the bar
+
 ```
 curl -X GET -H "Content-Type: application/json" http://progressbar.io/bars/428f52f8-bd78-4c37-9071-10ebb84ccb2d/status
 ```
@@ -69,6 +71,8 @@ HTTP 200 OK
 
 Check the full history of a bar
 ---- 
+
+No secretKey needed for reading from the bar
 
 ```
 curl -X GET -H "Content-Type: application/json" http://progressbar.io/bars/428f52f8-bd78-4c37-9071-10ebb84ccb2d/logs
