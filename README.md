@@ -21,7 +21,7 @@ curl -X POST -H "Content-Type: application/json" -d '{"name":"Making Pizza for O
 ```
 
 You will get back a repsponse with an id and a secret key. The secret key can be used to write to the bar or delete it:
-```http
+```
 HTTP 200 OK
 {
   id: "428f52f8-bd78-4c37-9071-10ebb84ccb2d",
@@ -75,7 +75,7 @@ curl -X GET -H "Content-Type: application/json" http://progressbar.io/bars/428f5
 
 Returns the last 100 messages logged to the bar in DESC order
 
-```http
+```
 HTTP 200 OK
 [
   {
