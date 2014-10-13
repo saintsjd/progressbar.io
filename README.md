@@ -26,7 +26,8 @@ HTTP 200 OK
 {
   id: "428f52f8-bd78-4c37-9071-10ebb84ccb2d",
   timestamp: "2014-10-12T21:22:13",
-  secretKey: "36ec244b-731d-46c3-956a-7438d42a7798"
+  secretKey: "36ec244b-731d-46c3-956a-7438d42a7798",
+  name: "Making Pizza for Order 111"
 }
 
 ```
