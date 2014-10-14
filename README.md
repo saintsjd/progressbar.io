@@ -8,6 +8,10 @@ Basic idea:
 1.  Workers submit their status via HTTP POST to progressbar.io
 2.  Curious observers poll progressbar.io via HTTP GET to see how things are going. (Webhooks will be available someday soon)
 
+How this helps:
+
+1. Keeps your distributed processes simple. No need to build in an API or maintain one.
+2. Lets you focus on writing great distributed process and not on logging.
 
 To start tracking something, create a bar:
 ----
